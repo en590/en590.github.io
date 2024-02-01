@@ -13,6 +13,7 @@
     }
 
     header {
+      position: relative; /* Add position relative for positioning the image */
       background-color: #e74c3c; /* Set the background color for the header to red */
       color: #fff; /* Set the text color for the header */
       padding: 20px;
@@ -30,6 +31,15 @@
 
     .welcome-message {
       color: #fff; /* Set the text color to white */
+    }
+
+    .profile-image {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border-radius: 50%;
+      width: 50px; /* Set the width of the image */
+      height: 50px; /* Set the height of the image */
     }
 
     p {
@@ -54,21 +64,22 @@
 </head>
 <body>
   <header>
+    <img src="icon.jpg" alt="Wayne Wang" class="profile-image">
     <h1>Welcome to My Page</h1>
-    <p class="welcome-message">Thank you for visiting my personal website.</p>
+    <p class="welcome-message">Thank you for visiting my personal website. I'm excited to share my interests and projects with you.</p>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      Hi, I'm Wayne Wang. I can help you to find EN590 sources.
+      Hi, I'm Wayne Wang. I can help you to find EN590 sources. This website serves as a platform for you to connect with me easily.
     </p>
   </section>
 
   <section>
     <h2>Contact Information</h2>
     <p>
-      Feel free to reach me via email or WhatsApp:
+      Feel free to reach out to me via email or WhatsApp:
     </p>
     <ul>
       <li>Email: <a href="mailto:ww6689@gmail.com">ww6689@gmail.com</a></li>
